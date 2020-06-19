@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  test8:
+    container_name: test8
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/app"
+      - "/app/node_modules"
+    ports:
+      - 3001:3000
+    stdin_open: true
