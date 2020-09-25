@@ -1,6 +1,7 @@
 import React from "react";
 import "../sass/banner.sass";
 
+// ignore me
 const Banner = () => {
   return (
     <div className="banner">
