@@ -9,7 +9,7 @@ function App() {
       <Banner />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        HELLO WORLD FROM KW
+        HELLO WORLD FROM KW change1
       </header>
     </div>
   );
